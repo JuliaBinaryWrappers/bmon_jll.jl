@@ -1,0 +1,13 @@
+name = "bmon_jll"
+uuid = "d7e7cbe0-5b96-5c0f-b173-1d76374e957e"
+version = "4.0.0+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Ncurses_jll = "68e3532b-a499-55ff-9963-d1c0c0748b3a"
+libnl_jll = "7c700954-19d3-5208-81e2-8fa5fe7c0bd8"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+libconfuse_jll = "9f03c2a6-2865-5578-ae11-af8a29163b66"
+
+[compat]
+julia = "1.0"
