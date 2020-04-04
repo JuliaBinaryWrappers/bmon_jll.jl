@@ -1,89 +1,89 @@
 [[bmon]]
 arch = "armv7l"
-git-tree-sha1 = "e34ce1be362a1aad46fbcea9da5d0d5dda36d0a2"
+git-tree-sha1 = "002e2fcf9c8a1c836688bbf238265b1e5f3066f4"
 libc = "glibc"
 os = "linux"
 
     [[bmon.download]]
-    sha256 = "ef2fc37ea065a3f8bf83e9e471ff5adb9ea44eea56da209ce01dc6ef100fa988"
-    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.arm-linux-gnueabihf.tar.gz"
-[[bmon]]
-arch = "x86_64"
-git-tree-sha1 = "1e194c30d11bd2fbbcabd584cf54db5a3ae958bd"
-libc = "glibc"
-os = "linux"
-
-    [[bmon.download]]
-    sha256 = "581306b30fdae717b29b8d01046e54e9be10c129b29c45ff1acd9d28159a0f26"
-    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.x86_64-linux-gnu.tar.gz"
-[[bmon]]
-arch = "aarch64"
-git-tree-sha1 = "918217b77e9dd7adb90cb4932fbb720e5871e083"
-libc = "glibc"
-os = "linux"
-
-    [[bmon.download]]
-    sha256 = "fa877d9580bf2875e96b849e49822ac2fc1f47afbdf35852d46287efe3ef40cb"
-    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "abcb4cb9134dbb6b8b98e07f0417b51230657f8bb83203e72ce307eb29089dd4"
+    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.armv7l-linux-gnueabihf.tar.gz"
 [[bmon]]
 arch = "i686"
-git-tree-sha1 = "70c174d9eee92a4b913da1865dbe5019b9306f49"
+git-tree-sha1 = "657de102430737c0d7ba5b701bcf8ff7ec78cb95"
 libc = "musl"
 os = "linux"
 
     [[bmon.download]]
-    sha256 = "67fb5699f998fb8993b31dc151edcd2c27aed843163b43108328e1bc570a5c45"
+    sha256 = "b925c59b014b546e934ec7db556ee54fe75ffeb6afa22dc423bc7b3082634996"
     url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.i686-linux-musl.tar.gz"
 [[bmon]]
 arch = "aarch64"
-git-tree-sha1 = "1b0c79c48b0e3f22e830d95dd79a445586fca0aa"
-libc = "musl"
-os = "linux"
-
-    [[bmon.download]]
-    sha256 = "78b97e7280aacdfeda81aad2a669357f5c9158d287a7af9f7791eefa67c5d9a9"
-    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.aarch64-linux-musl.tar.gz"
-[[bmon]]
-arch = "powerpc64le"
-git-tree-sha1 = "b5aaef6646b6a301cf3ec275d2ab4bf8121ffea1"
+git-tree-sha1 = "613e62f05044063164b7fca644a75145e9dde0f3"
 libc = "glibc"
 os = "linux"
 
     [[bmon.download]]
-    sha256 = "0f8cbee06119da570f84ecfc897d57abf1152b6caac893e0df45ee3b2e9f1725"
-    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "bd8eac4d62e7e6d364f67ab31323604e58e2ededfd52cd0c2467f9241e671527"
+    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.aarch64-linux-gnu.tar.gz"
+[[bmon]]
+arch = "armv7l"
+git-tree-sha1 = "320414ba8c45f1171958f79734f07c81c899d4c0"
+libc = "musl"
+os = "linux"
+
+    [[bmon.download]]
+    sha256 = "28f7f73b2d6b7e30d3a019d7d40e7e44e895268cbddb780c3195ec15e8a5732b"
+    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.armv7l-linux-musleabihf.tar.gz"
+[[bmon]]
+arch = "aarch64"
+git-tree-sha1 = "278363d36824a2e5312cea5e008e0de88d016059"
+libc = "musl"
+os = "linux"
+
+    [[bmon.download]]
+    sha256 = "cf76235d6b4b7dc5eb00142d42326b76a579f064bad5b511078e9ea26edd9225"
+    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.aarch64-linux-musl.tar.gz"
 [[bmon]]
 arch = "x86_64"
-git-tree-sha1 = "1c1dca0a2b27017d51dc2a6e7713de37c60e9160"
+git-tree-sha1 = "20950155fcf269a3e04ac6bc9e712ec13a485ddd"
 os = "macos"
 
     [[bmon.download]]
-    sha256 = "a54390e729c6364a138341af632eb4ae375b2912f91dbad13b60daa8a2fa860f"
+    sha256 = "b0e8f0fe0fb14e3e49e1925fc0922ddfbfd9419d870f625f5eb60391810e0d9b"
     url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.x86_64-apple-darwin14.tar.gz"
 [[bmon]]
 arch = "i686"
-git-tree-sha1 = "fb87961cd92abde89b51d056119a0d6b8e3f854d"
+git-tree-sha1 = "2bbc35caa58cc9ad52869950f2b53156c42613aa"
 libc = "glibc"
 os = "linux"
 
     [[bmon.download]]
-    sha256 = "f523538075278eb3d0792bfb32507b575f7c50924261d35b9b60b903a3e6d6b1"
+    sha256 = "18a2bed42f48d7e75ddb526267a419118500eec8a68ec2f3082018937b086176"
     url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.i686-linux-gnu.tar.gz"
 [[bmon]]
 arch = "x86_64"
-git-tree-sha1 = "a50f58120f3155a3f9fcfe9cdb95557cd148af2e"
+git-tree-sha1 = "6562210cd4258bc00a891962ef6e416b43a3d46a"
 libc = "musl"
 os = "linux"
 
     [[bmon.download]]
-    sha256 = "bff1354b95a2a8ec5b08dc7c8bd69028dd1f5c578659618b02b0fd3976ae29cc"
+    sha256 = "e754ab845380fceb962bfd9eaff2d5e0476a87c3cc8e3d6642b8c6c0718a9bda"
     url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.x86_64-linux-musl.tar.gz"
 [[bmon]]
-arch = "armv7l"
-git-tree-sha1 = "0bcff64fe85ecd44dd96c14b3fb6a75571273437"
-libc = "musl"
+arch = "x86_64"
+git-tree-sha1 = "22e1e043ffd62ff3e90cd5ced1014fc3d9cb1836"
+libc = "glibc"
 os = "linux"
 
     [[bmon.download]]
-    sha256 = "65fe9e277f249131d43ee9bec5e2e81bc7f954bf2a1ce7f699b3ebbab1e72014"
-    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.arm-linux-musleabihf.tar.gz"
+    sha256 = "060db591c4876968f3a2d9df5cd775e14c1a00694338f296e6bbe0e5d0a4883b"
+    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.x86_64-linux-gnu.tar.gz"
+[[bmon]]
+arch = "powerpc64le"
+git-tree-sha1 = "f84f579869d465b1481bef88393dac1a17f4936d"
+libc = "glibc"
+os = "linux"
+
+    [[bmon.download]]
+    sha256 = "7026340791cffb0a7eba43d3308ad0b12a4daa779436ff45421b0aec1d15d331"
+    url = "https://github.com/JuliaBinaryWrappers/bmon_jll.jl/releases/download/bmon-v4.0.0+0/bmon.v4.0.0.powerpc64le-linux-gnu.tar.gz"
